@@ -1,0 +1,25 @@
+.resume{
+    text-align: center;
+    margin-top: 140px;
+    line-height: 40px;
+   
+}
+.resume h3 {
+  
+    color: black;
+    
+    background-color: whitesmoke(197, 216, 223);
+}
+@media(max-width:500px) {
+   button{
+    font-size: 10px;
+    margin-bottom: 100px;
+   }
+    
+    h3 {
+      font-size: 12px;
+        
+    }
+  
+    
+  }

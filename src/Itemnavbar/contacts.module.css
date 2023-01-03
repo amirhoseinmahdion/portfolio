@@ -1,0 +1,58 @@
+.contac {
+    text-align: center;
+   
+}
+.contac h3 {
+    margin-top: 130px;
+    padding: 20px;
+}
+h3 span {
+    color: red;
+}
+h4 {
+    font-size: 20px;
+}
+h4:hover{
+    color: rgb(212, 107, 195);
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    transform: translate(40px);
+    transition: all 0.9s ease-in-out;
+    padding: 20px;
+   
+}
+button {
+    background-color: rgb(212, 107, 195);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+   margin-top: 50px ;
+ }
+ button:hover {
+       
+    background-color: black;
+    color: rgb(212, 107, 195);
+}
+@media(max-width:500px) {
+    button{
+        font-size: 10px;
+        margin-bottom: 100px;
+       }
+    .contac span{
+        font-size: 12px;
+        
+    }
+    h3 {
+      font-size: 12px;
+        
+    }
+    h4{
+        font-size: 10px;
+    }
+    
+  }

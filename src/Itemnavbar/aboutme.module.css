@@ -1,0 +1,39 @@
+body{
+    background-color: whitesmoke(197, 216, 223);
+}
+.main {
+  padding: 90px;
+  text-align: center;
+  
+}
+.main button {
+   background-color: rgb(212, 107, 195);
+   color: white;
+   border-radius: 10px;
+   padding: 10px;
+   border: none;
+   font-weight: bold;
+   font-size: 20px;
+   cursor: pointer;
+  margin-top: 100px ;
+}
+.main h3 {
+    line-height: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover {
+       
+    background-color: black;
+    color: rgb(212, 107, 195);
+}
+@media(max-width:500px) {
+  button{
+    font-size: 10px;
+    margin-bottom: 100px;
+   }
+  h3{
+    font-size: 12px;
+      
+  }
+  
+}
